@@ -1,0 +1,17 @@
+{
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "jest/globals": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {},
+
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "globalReturn": true,
+      "experimentalObjectRestSpread": true
+    }
+  }
+}
